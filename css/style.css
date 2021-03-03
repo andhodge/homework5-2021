@@ -75,7 +75,7 @@ links in the navigation are in the hover or focus state.*/
 
   /*Your code here*/
   position: relative;
-  top: -100px;
+  top: -50px;
 }
 /*Req 3b*/
 /*Write selector/rule property to position the skip class element*/
@@ -112,7 +112,7 @@ header{
   margin-bottom: 25px;
   /*Req 6b*/
   /*Set background-image to header.jpg */
-  background-image: url("images/header.jpg");
+  background-image: url('../images/header.jpg');
 }
 
 /*Req 7a*/
@@ -160,8 +160,8 @@ header{
   border: 10px solid black;
   padding: 30px;
   /*Your code here:*/
-  text-align: center;
-  vertical-align: middle;
+  align-self: center;
+  justify-self: center;
 }
 
 
@@ -177,7 +177,8 @@ header{
     /*Your code here:*/
     position: fixed;
     right: 0px;
-    vertical-align: middle;
+    align-self: center;
+    justify-self: right;
   }
 
   /*Req 11*/
