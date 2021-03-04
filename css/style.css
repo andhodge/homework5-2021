@@ -74,12 +74,13 @@ links in the navigation are in the hover or focus state.*/
   z-index: 1;
 
   /*Your code here*/
-  position: relative;
+  position: absolute;
   top: -50px;
 }
 /*Req 3b*/
 /*Write selector/rule property to position the skip class element*/
 .skip a:focus{
+  position: absolute;
   top: 10px;
 }
 
@@ -175,10 +176,15 @@ header{
   nav{
     padding: 30px 0px;
     /*Your code here:*/
-    position: fixed;
-    right: 0px;
-    align-self: center;
+
+
+    /* 
+    
+        
     justify-self: right;
+    */
+    text-align: right;
+    vertical-align: center;
   }
 
   /*Req 11*/
